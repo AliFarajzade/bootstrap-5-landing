@@ -1,0 +1,29 @@
+{
+    "name": "bootstrap-5-project",
+    "version": "1.0.0",
+    "description": "Frontend Masters, Built with Bootstrap 5 & SCSS",
+    "source": "./index.html",
+    "browserslist": [
+        ">= 0.5%",
+        "last 2 major versions",
+        "not dead",
+        "Chrome >= 60",
+        "Firefox >= 60",
+        "Firefox ESR",
+        "iOS >= 12",
+        "Safari >= 12",
+        "not Explorer"
+    ],
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/transformer-sass": "2.4.0",
+        "parcel": "^2.4.0"
+    },
+    "dependencies": {}
+}
